@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Full Youtube Theatre Mode
 // @namespace   https://github.com/adeFuLoDgu/Full-Youtube-Theatre-Mode
-// @version     0.2
+// @version     0.3
 // @description Enlarges the media player to fill the entire screen with theatre mode.
 // @author      adeFuLoDgu
 // @include     https://www.youtube.com/*
@@ -30,7 +30,7 @@ function loadCss(){
 	if(document.getElementById("youtubetheater")){return;}
 	// Applys css to the page to resize the media player to the entire screen.
 	addStyle(`
-		ytd-watch-flexy[theater-requested_] #player-full-bleed-container{
+		ytd-watch-flexy[theater-requested_] #full-bleed-container{
 			min-height:calc(100vh - 56px)!important;
 		}
 	`);

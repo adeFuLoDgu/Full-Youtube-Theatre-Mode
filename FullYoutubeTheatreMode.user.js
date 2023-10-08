@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name        Full Youtube Theatre Mode
 // @namespace   https://github.com/adeFuLoDgu/Full-Youtube-Theatre-Mode
-// @version     0.4
+// @version     0.5
 // @description Enlarges the media player to fill the entire screen with theatre mode.
 // @author      adeFuLoDgu
-// @include     https://www.youtube.com/*
+// @match     	https://www.youtube.com/*
 // @updateURL   https://github.com/adeFuLoDgu/Full-Youtube-Theatre-Mode/raw/main/FullYoutubeTheatreMode.user.js
 // @downloadURL https://github.com/adeFuLoDgu/Full-Youtube-Theatre-Mode/raw/main/FullYoutubeTheatreMode.user.js
 // @run-at      document-start
